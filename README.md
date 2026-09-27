@@ -2,7 +2,7 @@
 
 A minimal, highly optimized tech blog built to demonstrate the core fundamentals of Next.js for the Dev Weekends '26 Fellowship. This project highlights the App Router, Data Fetching strategies (SSR, SSG, ISR), and the architectural difference between Server and Client Components.
 
-🔗 **[Live Demo](Vercel_Link_Aayega)**
+🔗 **[Live Demo][Vercel_Link_Aayega](https://devblog-nextjs-pi.vercel.app/)**
 
 ## 🧠 Core Concepts Implemented
 
