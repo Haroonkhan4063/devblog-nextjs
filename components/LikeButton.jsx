@@ -1,10 +1,5 @@
 "use client";
 
-// "use client" at the very top of the file is what marks this as a
-// Client Component. It ships JS to the browser and can use hooks
-// (useState, useEffect), event handlers (onClick), and browser APIs —
-// none of which a Server Component is allowed to do.
-
 import { useState } from "react";
 
 export default function LikeButton({ slug, initialLikes }) {

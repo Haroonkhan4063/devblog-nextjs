@@ -2,10 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 
-// No "use client" here → this is a Server Component.
-// It also does NOT use fetch() with dynamic options, force-dynamic,
-// or cookies/headers — so Next.js is free to render it fully at
-// BUILD TIME and serve it as static HTML from then on. This is SSG.
 export default function HomePage() {
   const posts = getAllPosts();
 
@@ -26,8 +22,7 @@ export default function HomePage() {
               alt={post.title}
               width={160}
               height={120}
-              // next/image automatically: resizes, converts to modern
-              // formats (WebP/AVIF), lazy-loads, and prevents layout shift.
+             
             />
             <div className="post-card-body">
               <span className="post-date">{post.date}</span>

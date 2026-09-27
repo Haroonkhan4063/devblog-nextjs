@@ -6,8 +6,6 @@ export const metadata = {
     "A small blog built to demonstrate App Router, SSR, SSG, ISR, API routes, and image optimization in Next.js.",
 };
 
-// This file is a Server Component by default (no "use client" at the top).
-// It renders once on the server and never ships its own JS to the browser.
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
